@@ -142,14 +142,14 @@
     <script>
 
 
-        //  $.ajax({
-        //     // http://localhost:3000/employee/employeeLogin
-        //     url: '/api/employee/employeeLogin',
-        //     type: 'post',
-        //     success: function (info) {
-        //         console.log(info);
-        //     }
-        // })
+         $.ajax({
+            // http://localhost:3000/employee/employeeLogin
+            url: '/api/employee/checkRootLogin',
+            type: 'get',
+            success: function (info) {
+                console.log(info);
+            }
+        })
 
 
         // 基于准备好的dom，初始化echarts实例
